@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from './components/header/Header';
-import Todos from './components/todo/Todo';
+import Todo from './components/Todo/Todo';
+
 
 
 function App() {
   return (
     <>
       <Header />
-      <Todos />
+      <Todo />
     </>
   );
 }
